@@ -17,7 +17,7 @@ export default function Home() {
         <p style={styles.text}>
           I’m Martijn Scholten, a detail-oriented Freelance Cloud Architect with over 10 years in the IT industry. My journey began in development, sparked by a lifelong passion for Linux. I’ve led teams and a container practice, successfully delivering projects on AWS, GCP, Kubernetes, and OpenShift. My expertise includes CI/CD, DevOps, SRE, automation, architecting, and engineering. I bring strong operational knowledge across key cloud pillars: Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization. Proficient in Bash, Golang, Terraform and Python, I’m ready to help your company succeed.
           <br /><br />
-          Please contact Martijn to see how he can assist your business.
+          Please contact me to see how I can assist your business.
         </p>
       </div>
       <div style={styles.links}>
