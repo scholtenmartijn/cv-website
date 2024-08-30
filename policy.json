@@ -1,0 +1,43 @@
+{
+    "Version": "2008-10-17",
+    "Id": "PolicyForCloudFrontPrivateContent",
+    "Statement": [
+        {
+            "Sid": "AllowCloudFrontServicePrincipal",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "cloudfront.amazonaws.com"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::mrcontainer-website/*",
+            "Condition": {
+                "StringEquals": {
+                  "AWS:SourceArn": "arn:aws:cloudfront::891377266803:distribution/E2U0QOFAOIYEEZ"
+                }
+            }
+        }
+    ]
+  }
+
+
+
+  {
+    "Sid": "AllowCloudFrontServicePrincipalSSE-KMS",
+    "Effect": "Allow",
+    "Principal": {
+        "Service": [
+            "cloudfront.amazonaws.com"
+        ]
+     },
+    "Action": [
+        "kms:Decrypt",
+        "kms:Encrypt",
+        "kms:GenerateDataKey*"
+    ],
+    "Resource": "*",
+    "Condition": {
+            "StringEquals": {
+                "AWS:SourceArn": "arn:aws:cloudfront::891377266803:distribution/E2U0QOFAOIYEEZ"
+            }
+        }
+}

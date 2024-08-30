@@ -1,18 +1,20 @@
-import '../styles/globals.css';
-import Head from 'next/head';
+// import '../styles/globals.css';
+// import Head from 'next/head';
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
-      <Component {...pageProps} />
-    </>
-  );
-}
+// function MyApp({ Component, pageProps }) {
+//   return (
+//     <>
+//       <Head>
+//         <link
+//           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+//           rel="stylesheet"
+//         />
 
-export default MyApp;
+//         <title>Mr Container - Freelance Cloud Architect</title>
+//       </Head>
+//       <Component {...pageProps} />
+//     </>
+//   );
+// }
+
+// export default MyApp;

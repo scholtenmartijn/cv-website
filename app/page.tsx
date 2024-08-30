@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Mail, Github, Linkedin } from 'lucide-react';
+import { CSSProperties } from 'react';
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
   );
 }
 
-const styles = {
+const styles: { [key: string]: CSSProperties } = {
   container: {
     display: 'flex',
     flexDirection: 'column',
