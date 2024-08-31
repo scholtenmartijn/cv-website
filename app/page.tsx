@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Mail, Github, Linkedin } from 'lucide-react';
 import { CSSProperties } from 'react';
 
+// TODO: Split into components
 export default function Home() {
   return (
     <div style={styles.container}>
@@ -34,7 +35,7 @@ export default function Home() {
     </div>
   );
 }
-
+// TODO: Move to separate file
 const styles: { [key: string]: CSSProperties } = {
   container: {
     display: 'flex',

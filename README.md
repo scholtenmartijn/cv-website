@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Martijn's CV Website
+
+Welcome to my humble attempt at taming the wild beast that is React and Next.js. Yes, this is my official dive into the world of modern web development after taking a multiple year break from it. Brace yourself.
 
 ## Getting Started
 
-First, run the development server:
+To witness this grand experiment in action, start the development server:
 
 ```bash
 npm run dev
@@ -11,26 +13,26 @@ yarn dev
 # or
 pnpm dev
 # or
-bun dev
+bun dev (if you're feeling adventurous)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) and be amazed (or not, no pressure).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Feel free to start editing `app/page.tsx`—just be aware that it auto-updates, so you can’t hide your mistakes for long!
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Want to know more about Next.js? Check out these resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) - Dive deep into the rabbit hole.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive tutorial that will either enlighten you or leave you questioning your life choices.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploying this masterpiece is easiest on the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme). Because why not let the creators of Next.js host your Next.js app?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out the [Next.js deployment docs](https://nextjs.org/docs/deployment) if you're really serious about it.
+
+---
+
+Enjoy the ride, and may your code be bug-free (or at least entertaining)!
